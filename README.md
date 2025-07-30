@@ -25,29 +25,29 @@
 - **Jupyter Notebook –** Interactive analysis environment
   
 **🪜 Steps**
-**1. Data Import 🔃**
+1. **Data Import 🔃**
 - Dataset was successfully loaded using the pandas library in Jupyter Notebook.
-**2. Data Preparation 🔐**
+2. **Data Preparation 🔐**
 - Converted date-related columns into datetime format for accurate time-based analysis.
-**3. Exploratory Data Analysis (EDA) 📈📉**
+3. **Exploratory Data Analysis (EDA) 📈📉**
 - Counted the frequency of each device type (Smart TV: 870).
 - Calculated the average completion rate for each platform.
 - Identified and listed content in order of increasing completion rate.
-**4. Data Visualization 📊**
+4. **Data Visualization 📊**
 - Histogram: Analyzed the distribution of the completion_rate and watch_time_minutes variables.
 - Heatmap: Explored correlations, especially between watch time and completion rate.
 - Histplot: Visualized the frequency of watchtime distributon .
   
 **✅ Strategic Recommendations**
-**1. Enhance Experience on Smart TVs and Tablets 📺**
+1. **Enhance Experience on Smart TVs and Tablets 📺**
 - **Observation:** Users watching through Smart TVs and Tablets log the highest average watch durations.
 - **Action:** Prioritize feature rollouts (e.g., autoplay, resume playback, personalized carousels) for these platforms to keep users engaged longer.
-**2. Completion Rate Gaps Across Platforms ⏳**
+2. **Completion Rate Gaps Across Platforms ⏳**
 - **Observation:** Services like Netflix exhibit higher completion rates, while mobile web and browser-based apps lag behind.
 - **Action:** Investigate underperforming platforms for potential usability issues (e.g., buffering, poor interface). Utilize user feedback or session replay tools to identify causes of early exits.
-**3. Capitalize on Long Horror Content Performance 👻**
+3. **Capitalize on Long Horror Content Performance 👻**
 - **Observation:** Long-form horror shows and movies attract extensive watch time.
 - **Action:** Expand offerings in this genre. Curate themed playlists like horror marathons or time-limited series to further boost viewership.
-**4. Improve Retention for Short Content ❌**
+4. **Improve Retention for Short Content ❌**
 - **Observation:** Short videos (<5 mins) are still suffering from low completion, likely due to weak starts or mismatched recommendations.
 - **Action:** Implement features like “Auto-next” or organize short clips into seamless playlists to enhance continuity and engagement.
